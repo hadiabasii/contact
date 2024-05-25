@@ -11,7 +11,7 @@ def save_contact():
 #########################################################
 def add_contact():
     print("add new contact")
-    name = input("Name: ")
+    name = input("Name:  ")
     phone = input("Phone: ")
     email = input("Email: ")
     address = input("Address: ")

@@ -17,7 +17,7 @@ def add_contact():
     address = input("Address: ")
     
     if not phone.isdigit():
-        raise ValueError("phone number must be numric")
+        raise ValueError("phone number  must be  numric")
     
     contact = {'Name': name , 'Phone': phone , 'Email': email , 'Address':address}
     contacts.append(contact)

@@ -90,7 +90,7 @@ while True:
     try:
         print(" address book menu")
         print("1. add contact")
-        print("2. vie contact")
+        print("2.   vie contact")
         print("3. update contact")
         print("4. del contact")
         print("5. exit")

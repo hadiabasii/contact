@@ -11,13 +11,13 @@ def save_contact():
 #########################################################
 def add_contact():
     print("add new contact")
-    name = input("Name: ")
+    name = input("Name:  ")
     phone = input("Phone: ")
     email = input("Email: ")
-    address = input("Address: ")
+    address = input("Address:")
     
     if not phone.isdigit():
-        raise ValueError("phone number must be numric")
+        raise ValueError("phone number  must be  numric")
     
     contact = {'Name': name , 'Phone': phone , 'Email': email , 'Address':address}
     contacts.append(contact)
@@ -90,7 +90,7 @@ while True:
     try:
         print(" address book menu")
         print("1. add contact")
-        print("2. vie contact")
+        print("2. viie contact")
         print("3. update contact")
         print("4. del contact")
         print("5. exit")
